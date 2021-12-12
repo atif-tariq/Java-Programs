@@ -9,7 +9,7 @@ public class numbers
       int i =0;
       int num =0;
       String  primeNumbers = "";
-      System.out.println("Enter the value of n:");
+      System.out.println("All prime no.'s will be printed , enter a no you wish as the limit for the list :");
       int n = scanner.nextInt();
       scanner.close();
       for (i = 1; i <= n; i++)  	   
