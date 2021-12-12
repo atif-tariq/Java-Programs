@@ -1,5 +1,5 @@
 /*       CSE-18-50      */
-class numbers {
+public class numbers {
    public static void main(String args[]) {
   int n = 10;
   System.out.print("Even Numbers from 1 to "+n+" are: ");
