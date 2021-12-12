@@ -2,7 +2,7 @@
        Conditional Statements
 */
 import java.util.*;
-class StudentGrade
+public class StudentGrade
   {
    public static void main(String a[])
      {
