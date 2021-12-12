@@ -1,23 +1,22 @@
 /*       CSE-18-50      */
-
 import java.lang.Math;
-public class numbers {
+public class Maximum  {
    public static void main(String[] args) {
-      //integer values
-      int a = 12;
-      int b = 10;
-      //float values
-      float c = 100.00f;
-      float d = 99.99f;
-      // double values
-      double e = 30.01d;
-      double f = 29.344d;
-      // long values
-      long g = 123456l;
-      long h = 45678l;
+      // declaring and intializing some integer values
+      int a = 10;
+      int b = 9;
+      // declaring and intializing some float values
+      float c = 10.00f;
+      float d = 9.99f;
+      // declaring and initializing some double values
+      double x = 300.01d;
+      double y = 290.344d;
+      // declaring and initializing some long values
+      long r = 123456l;
+      long s = 35678l;
       System.out.println("Maximum of " + a +" and " + b +" is " + Math.max(a,b));
       System.out.println("Maximum of " + c +" and " + d +" is " + Math.max(c,d));
-      System.out.println("Maximum of " + e +" and " + f +" is " + Math.max(x,y));
-      System.out.println("Maximum of " + g +" and " + h +" is " + Math.max(r,s));
+      System.out.println("Maximum of " + x +" and " + y +" is " + Math.max(x,y));
+      System.out.println("Maximum of " + r +" and " + s +" is " + Math.max(r,s));
    }
 }
