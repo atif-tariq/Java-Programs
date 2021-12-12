@@ -1,7 +1,7 @@
 /*       CSE-18-50      */
 
 import java.util.Scanner;
-class numbers
+public class numbers
 {
    public static void main (String[] args)
    {		
