@@ -1,6 +1,6 @@
 /*       CSE-18-50      */
 import java.util.Scanner;
-class Circle
+public class Circle
 {
    static Scanner sc = new Scanner(System.in);
    public static void main(String args[])
