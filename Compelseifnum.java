@@ -1,5 +1,5 @@
 /*       CSE-18-50      */
-class  numbers{
+public class  numbers{
   public static void main(String[] args) {
   int a=5, b=1;
   if (a == b){
