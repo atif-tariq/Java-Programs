@@ -2,27 +2,47 @@
          Nested Switch 
 */
 
-public class NestedSwitch {
- public static void main(String[] args) {
- int i = 0;
- int j = 1;
- switch(i)
- {
- case 0:
- switch(j)
- {
- case 0:
- System.out.println("i is 0, j is 0");
- break;
- case 1:
- System.out.println("i is 0, j is 1");
- break; 
- default:
- System.out.println("nested default case!!");
- } 
- break;
- default:
- System.out.println("No matching case found!!"); 
- } 
- }
+public class PrintSubjects
+{
+    public static void main(String arg[])
+    {
+        char branch = 'E'; // C - CSE, E - ECE, M - Mech
+        int year = 2;
+        
+        switch( year )
+        {
+            case 1:
+                System.out.println("English, Maths, Drawing");
+                break;
+            case 2:
+                switch( branch ) 
+                {
+                    case 'C':
+                        System.out.println("Data structures, Java, Computer Organization");
+                        break;
+                    case 'E':
+                        System.out.println("Micro processors");
+                        break;
+                    case 'M':
+                        System.out.println("Drawing, Manufacturing");
+                        break;
+                }
+                break;
+            case 3:
+                switch( branch ) 
+                {
+                    case 'C':
+                        System.out.println("Operating System, RDBMS");
+                        break;
+                    case 'E':
+                        System.out.println(" Microelectronics");
+                        break;
+                    case 'M':
+                        System.out.println(" Mechanical Vibration");
+                        break;
+                }
+                break;
+        }
+    
+    }
 }
